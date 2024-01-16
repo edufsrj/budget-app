@@ -1,0 +1,10 @@
+spring:
+  flyway:
+    enabled: 'true'
+    url: jdbc:postgresql://localhost:5432/budget
+    user: postgres
+    password: 123654!
+  r2dbc:
+    username: postgres
+    password: 123654!
+    url: r2dbc:postgresql://localhost:5432/budget
